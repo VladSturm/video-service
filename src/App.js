@@ -6,14 +6,19 @@ import New from './components/new'
 import Genres from './components/genres'
 import Footer from './components/footer'
 
+import {Wrap} from './style'
+
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Tabs />
-      <New />
-      <Genres />
+      <Wrap>
+        <Header />
+        <Tabs />
+        <New />
+        <Genres />
+      </Wrap>
       <Footer />
+      
     </div>
   );
 }
